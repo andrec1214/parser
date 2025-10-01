@@ -1,6 +1,7 @@
 # Recursive Descent Parser
 
-A C++ implementation of a recursive descent parser for the SADAL (Simple ADA-Like) language, built as part of a compilers course project.
+A C++ implementation of a recursive descent parser for the SADAL (Simple ADA-Like) language, built as part of a programming language concepts course project. Some parts involved private code, so if you're curious about the test cases and
+running it, feel free to reach out.
 
 ## Overview
 
@@ -95,13 +96,6 @@ BEGIN
         y := x;
     END IF;
 END Example;
-```
-
-## Build and Run
-
-```bash
-g++ -std=c++17 -o parser *.cpp
-./parser input.pas
 ```
 
 ---
